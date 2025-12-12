@@ -1,5 +1,3 @@
----
-
 # Quera Contest Solutions Dev ops
 
 ## Abar arvan DevOps Bootcamp
