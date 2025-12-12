@@ -1,0 +1,12 @@
+version: "2"
+
+# Do not forget that the only available 
+# redis image is accessible with the following url:
+#  ghcr.io/qregistry/standard/redis:latest
+
+services:
+  limited_redis:
+    image: ghcr.io/qregistry/standard/redis:latest
+    container_name: limited_redis
+    mem_limit: 30M
+    cpu_shares: 70
